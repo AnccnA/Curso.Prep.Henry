@@ -34,7 +34,7 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if(status === 1) {
     return "Online";
-  else {
+  else {  
     if(status === 2) {
       return "Away";
     }
@@ -54,7 +54,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  
+
 }
 
 function colors(color) {
