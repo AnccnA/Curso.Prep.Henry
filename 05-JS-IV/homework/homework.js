@@ -105,6 +105,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Tu código:
   usuario.password = nuevaPassword;
   return usuario;
+}
 
 function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
