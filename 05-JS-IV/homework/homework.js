@@ -74,7 +74,7 @@ function tieneEmail(usuario) {
   // para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if(usuario['email']) {  
+  if(usuario.email) {  
     return true;
   } else {
     return false;
