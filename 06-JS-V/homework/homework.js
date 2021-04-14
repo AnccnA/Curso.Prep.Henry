@@ -56,16 +56,29 @@ function agregarStringInvertida() {
     //  }
 
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
+    //constructor(/*Escribir los argumentos que recibe el constructor*/) {
       // Crea el constructor:
-
-    }
+      constructor (nombre,apellido,edad,domicilio) {
+        this.nombre = nombre,
+        this.apellido = apellido,
+        this.edad = edad,
+        this.domicilio = domicilio,
+        this.detalle = function() {
+          return {
+            Nombre: this.nombre,
+            Apellido: this.apellido,
+            Edad: this.edad,
+            Domicilio: this.domicilio
+          }      
+        }
+      }
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
+  return new Persona(nombre,apellido,edad,dir);
 }
   
 function agregarMetodo() {
