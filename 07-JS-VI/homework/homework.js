@@ -46,12 +46,22 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+  var nueva = [];
+  for (let i=0; i<array.length ;i++) {
+    nueva.push(cb(array[i]));
+  }
+  return nueva;
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  var nueva = [];
+  for (let i=0; i<array.length ;i++) {
+    if (array[i][0] === "a") nueva.push(array[i]);
+  }
+  return nueva;
 }
 
 // No modificar nada debajo de esta línea
