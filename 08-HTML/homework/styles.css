@@ -1,20 +1,35 @@
-body {
-  background-color: green;
+html { 
+  background:  url(bandera-sanjo.png)  right bottom no-repeat fixed, url(paper.jpg) no-repeat center fixed ;
+  background-size:100px,cover;
+    text-align: center;
 }
 
-#h1 {
-    text-align: center;
-    color: blue;
-  }
-#spanId {
+.flex-container { 
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
 
+h1 {
+     color: blue;
+}
+
+img {
+  width: 400px;
+}
+
+#spanId {
+     padding: 50px;
+     font-size: 18px;
+     color: powderblue;
 }  
 
-#thirdDiv   {
-
-}
-
-p {
-  color: blue;
-  font-size: 30px;
+.thirdDiv {
+    border-style: groove;
+    border-color: powderblue;
+    padding: 50px;
+    /*width: 500px;
+    height:600px;*/
+    background-color: powderblue;
 }
