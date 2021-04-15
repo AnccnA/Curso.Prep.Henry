@@ -2,6 +2,18 @@ body {
   background-color: green;
 }
 
+#h1 {
+    text-align: center;
+    color: blue;
+  }
+#spanId {
+
+}  
+
+#thirdDiv   {
+
+}
+
 p {
   color: blue;
   font-size: 30px;
