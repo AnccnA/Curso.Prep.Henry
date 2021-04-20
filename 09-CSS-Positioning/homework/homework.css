@@ -46,12 +46,12 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-#ejercicioCinco {
-    .flex-container { 
+#ejercicioCinco.flex-container { 
         display: flex;    
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
-    }
+        text-align: center;
+        
 }
 
 
