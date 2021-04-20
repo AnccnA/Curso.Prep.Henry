@@ -49,7 +49,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco {
     .flex-container { 
         display: flex;    
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
     }
 }
