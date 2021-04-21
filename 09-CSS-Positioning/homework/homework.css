@@ -46,7 +46,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-#ejercicioCinco.flex-container { 
+#ejercicioCinco { 
     display: block;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
-#ejercicioCinco.flex-container {
+#ejercicioCinco {
     display: flex;
     flex-direction: row-reverse;
 }
