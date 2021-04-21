@@ -62,3 +62,11 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     display: flex;
     flex-direction: row-reverse;
 }
+
+/* Ejercicio 7. */
+#ejercicioSiete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;   
+}
