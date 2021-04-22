@@ -73,6 +73,13 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  var num= numero.toString();
+  for (let i=0; i< num.length/2; i++) {
+    if (num[i] !== num[num.length-1-[i]]) {
+      return "No es capicua";
+    }
+  }
+  return "Es capicua";
 }
 
 
