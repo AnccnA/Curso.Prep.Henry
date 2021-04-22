@@ -43,7 +43,7 @@ function capToFront(s) {
   var min="";
   var may="";
   for (let i=0; i< s.length; i++) {
-    if (s[i].toUpperCase === s[i]) {
+    if (s[i].toUpperCase() === s[i]) {
       may+=s[i];
     }else {
       min+=s[i];
@@ -59,7 +59,13 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-} 
+  var mirror= "";
+  for (let i=str.length; i>=0; i--) {
+      mirror += str[i];
+  } 
+  var array= mirror.split(" ");
+  return array.inverse().join(" ");
+}
 
 
 function capicua(numero){
