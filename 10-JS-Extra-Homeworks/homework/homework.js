@@ -60,11 +60,11 @@ function asAmirror(str) {
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
   var mirror= "";
-  for (let i=str.length; i>=0; i--) {
+  for (let i=str.length-1; i>=0; i--) {
       mirror += str[i];
   } 
   var array= mirror.split(" ");
-  return array.inverse().join(" ");
+  return array.reverse().join(" ");
 }
 
 
